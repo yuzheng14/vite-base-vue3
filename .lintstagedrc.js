@@ -21,7 +21,7 @@ const removeIgnoredFiles = async (files) => {
 // 导出 lint-staged 的配置
 export default {
   // 对于 js 或者 ts 文件使用 eslint 进行审查
-  '**/*.{js,jsx,ts,tsx}': async (files) => {
+  '**/*.{js,jsx,ts,tsx,vue}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files)
     return [`eslint --max-warnings=0 --fix ${filesToLint}`]
   },
