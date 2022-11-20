@@ -1,0 +1,29 @@
+{
+  "name": "vite-base-vue3",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "vue": "^3.2.41",
+    "web-vitals": "^3.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "vite": "^3.2.3"
+  }
+}
