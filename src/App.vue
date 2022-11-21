@@ -1,5 +1,5 @@
 <script setup>
-import reportWebVitals from '../webVitals'
+import { logWebVitals } from './utils/console'
 
-reportWebVitals(console.log)
+logWebVitals()
 </script>
