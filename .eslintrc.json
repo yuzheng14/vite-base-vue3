@@ -29,5 +29,7 @@
   "rules": {
     "no-var": "error",
     "no-console": "error"
-  }
+  },
+  // 禁止行内注释禁用 eslint 检查
+  "noInlineConfig": true
 }
