@@ -7,7 +7,7 @@ const runInDev = (func) => {
 }
 
 export const log = (...args) => {
-  runInDev(() => console.lop(...args))
+  runInDev(() => console.log(...args))
 }
 
 export const warn = (...args) => {
